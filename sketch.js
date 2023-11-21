@@ -54,7 +54,8 @@ function setup() {
 function draw() {
   background(255);
 //debug the below code
-  kangaroo.x=camera.positionX-170;
+  kangaroo.x=camera.position.x-170;
+  
   
   if (gameState===PLAY){
 
